@@ -7,7 +7,7 @@ extern void load_idt(unsigned long *idt_ptr);
 extern unsigned char keyboard_map[128];
 
 char *vidptr = (char *)0xb8000;
-unsigned int current_loc = 0;
+unsigned int current_loc = 12;
 
 void kmain(void) 
 {
